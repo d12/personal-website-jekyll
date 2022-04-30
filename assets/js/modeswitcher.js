@@ -4,7 +4,7 @@ https://github.com/derekkedziora/jekyll-demo
 Creative Commons Attribution 4.0 International License
 */
 
-let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
+let systemInitiatedDark = true;
 let theme = sessionStorage.getItem('theme');
 
 function changeIconImgSrc(src) {
